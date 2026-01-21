@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOS STORE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>SOS STORE</h1>
+  <a class="instagram-btn" href="https://instagram.com/sos_sstorre" target="_blank">
+    تواصل عبر إنستغرام
+  </a>
+</header>
+
+<section class="sections">
+  <div class="section-card" onclick="openSection(1)">قسم 1</div>
+  <div class="section-card" onclick="openSection(2)">قسم 2</div>
+  <div class="section-card" onclick="openSection(3)">قسم 3</div>
+  <div class="section-card" onclick="openSection(4)">قسم 4</div>
+</section>
+
+<section id="products-section" class="hidden">
+  <div class="section-header">
+    <input type="text" id="searchInput" placeholder="بحث عن منتج..." />
+    <button onclick="closeSection()">إغلاق</button>
+  </div>
+
+  <div class="slider" id="slider"></div>
+<img src="images/soon.png" alt="Coming Soon">
+</section>
+
+<section class="reviews">
+  <h2>آراء العملاء</h2>
+  <p>⭐️⭐️⭐️⭐️⭐️ تجربة ممتازة</p>
+  <p>⭐️⭐️⭐️⭐️ متجر مرتب وسلس</p>
+</section>
+
+<footer class="footer">
+  © SOS STORE
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
